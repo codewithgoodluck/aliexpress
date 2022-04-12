@@ -1,0 +1,164 @@
+
+select{
+    font-size: 20px;
+    border: none;
+    background-color: #F2F2F2!important;
+    font-weight: 300;
+}
+
+select option{
+    font-size: 20px;
+    border: none;
+    padding-left: 10px;
+    outline-color: none;
+    background-color: #F2F2F2!important;
+
+}
+
+.other{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+.slash{
+    font-weight: 50; 
+    color: black;
+    opacity: 0.5;
+}
+
+.mini img{
+    height: 20px;
+}
+
+.mini .icon{
+    height: 30px;
+}
+.mini .icon2{
+    height: 35px;
+}
+
+.mini_navbar{
+    display: none;
+}
+
+.mini_navbar_logo_text{
+    display: none;
+}
+
+/* media querry  */
+
+@media (min-width: 769px) {
+
+    .mini_navbar{
+        display:flex;
+     
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-device-width:769px), screen and (max-width:1024px) {
+    select{
+        font-size: 17px;
+        border: none;
+        background-color: #F2F2F2!important;
+        font-weight: 300;
+    }
+    
+    select option{
+        font-size: 17px;
+        border: none;
+        padding-left: 10px;
+        outline-color: none;
+        background-color: #F2F2F2!important;
+    
+    }
+    
+    .other{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 7px;
+    }
+    
+    
+    
+    .slash{
+        font-weight: 50; 
+        color: black;
+        opacity: 0.5;
+        margin-top: 15px;
+    }
+    
+    .mini img{
+        height: 20px;
+        margin-top: 7px;
+    }
+    
+    .mini .icon{
+        height: 30px;
+        margin-top: 3px;
+    }
+    .mini .icon2{
+        height: 35px;
+        margin-top: 3px;
+    }
+    
+    }
+
+
+    @media (min-width: 1025px) {
+
+        select{
+            font-size: 13px;
+            border: none;
+            background-color: #F2F2F2!important;
+
+            font-weight: 300;
+            padding-top:6px;
+        }
+        
+        select option{
+            font-size: 13px;
+            border: none;
+            /* padding-left: 10px; */
+            outline-color: none;
+            background-color: #F2F2F2!important;
+
+        
+        }
+        
+        .other{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 7px;
+        }
+        
+        
+        
+        .slash{
+            font-weight: 50; 
+            color: black;
+            opacity: 0.5;
+            margin-top: 4px;
+        }
+        
+        .mini img{
+            height: 20px;
+            margin-top: 7px;
+        }
+        
+        .mini .icon{
+            height: 30px;
+            margin-top: 3px;
+        }
+        .mini .icon2{
+            height: 35px;
+            margin-top: 3px;
+        }
+        
+    }

@@ -1,0 +1,102 @@
+.carosel img{
+  width: 90% !important;
+  margin-left: 15px;
+  border-radius: 10px !important;
+}
+
+
+.parent_car{
+  display: none;
+  
+}
+
+
+.text_inner{
+  display: none;
+}
+
+
+
+.carosel .carousel-control-next-icon{
+    opacity: 0;
+}
+.carosel .carousel-control-prev-icon{
+    opacity: 0;
+}
+
+
+
+@media (min-width: 426px) {
+
+  .carosel img{
+    width: 97% !important;
+    /* margin-left: 15px; */
+    border-radius: 10px !important;
+  }
+  
+
+  
+}
+
+
+@media (min-width: 1025px) {
+/* 
+  .carosel{
+margin-top: 100px;
+  } */
+
+   .text_inner{
+    font-size: 15px;
+    width: 60%;
+    margin-left: 16px;
+    display: block;
+  }
+
+ 
+  .car_p .car{
+
+    background-image:
+    "url(" +
+    "https://ae01.alicdn.com/kf/H863bb19ae5de49a8bd6074a3d81599d9z.jpg_Q90.jpg_.webp" +
+    ")";
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  
+  } 
+
+
+  .mini_car_parent{
+    height: 160px;
+    margin-top: 20px;
+  }
+
+  .welcome{
+    font-size: 22px;
+  }
+
+  .claim_parent{
+    position: relative;
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+
+  .claim_text{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-left: 40px;
+  }
+}
+
+
+
+
+@media (min-width: 1025px) {
+  .parent_car{
+    display: flex;
+    
+  }
+  
+      
+}

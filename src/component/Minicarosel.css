@@ -1,0 +1,84 @@
+ .parent_sale_mini .car_image{
+    width: 120px !important;
+    height: 140px !important;
+    margin-top: 5px;
+  
+  }
+
+  .parent_sale_mini{
+position: relative;
+  }
+
+
+  .parent_sale_mini_color{
+    position: absolute;
+    top: 130px;
+    margin-left: 8px;
+  }
+
+  .parent_sale_mini_color img{
+    width: 80px;
+    height: 25px;
+  }
+
+  
+
+
+  .parent_sale_text_mini{
+    position: absolute;
+    top: 3px;
+    margin-left: 13px;
+    
+  } 
+
+ 
+/* 
+  .carosel_parent {
+    height: 200px;
+    width: 200px;
+  }
+   */
+/*   
+  .text_inner{
+    display: none;
+  }
+  
+  
+  
+  .carosel .carousel-control-next-icon{
+      opacity: 0;
+  }
+  .carosel .carousel-control-prev-icon{
+      opacity: 0;
+  }
+  
+  
+  
+  @media (min-width: 426px) {
+
+    .carosel img{
+      width: 97% !important;
+      border-radius: 10px !important;
+    }
+    
+  
+    
+  }
+  
+  
+  @media (min-width: 1025px) {
+  
+    .carosel{
+  margin-top: 100px;
+    }
+   
+     .text_inner{
+      font-size: 15px;
+      width: 60%;
+      margin-left: 16px;
+      display: block;
+    } 
+  
+   
+   
+  } */

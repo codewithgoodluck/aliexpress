@@ -1,0 +1,59 @@
+.size{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.Productcat{
+   color: "#F2F2F2";
+   font-size: 12px;
+   color: #666666;
+ 
+}
+
+.greyColor{
+    color: #666666;
+}
+
+.parent_price{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.product input[type=text] {
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+  }
+
+.parent_price   { 
+    position: relative;
+
+
+
+}
+
+.product .shipping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product .shipping2{
+    display:none;
+  
+}
+
+
+@media (min-width: 768px) {
+
+    .product .shipping2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    
+  }

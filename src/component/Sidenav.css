@@ -1,0 +1,28 @@
+.left_sidenave{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.left_sidenave img{
+    width: 30px;
+    height: 30px;
+}
+
+.left_sidenave_inner img{
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    object-fit:contain;
+    margin: 0 5px;
+
+}
+
+
+.left_sidenave_inner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}

@@ -1,0 +1,27 @@
+.naira{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.moreDesk{
+    display: none;
+    
+  }
+
+
+  .footer_desktop{
+      display: none;
+  }
+ 
+  
+
+
+@media (min-width: 1025px) {
+    .footer_desktop{
+      display: block;
+      
+    }
+    
+        
+  }

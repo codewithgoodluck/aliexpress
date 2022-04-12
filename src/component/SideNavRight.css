@@ -1,0 +1,71 @@
+
+.sign_up img{
+    width: 40px;
+    
+}
+
+.sign_up .button_text .join{
+background-color: #FF5B2D;
+}
+
+.sign_up .button_text .up{
+    background-color: #F5F5F5;
+}
+
+
+
+.parent_sale_mini_color_side{
+    position: absolute;
+    top: 10px;
+    margin-left: 8px;
+  }
+
+  .parent_sale_mini_color_side img{
+    width: 80px;
+    height: 25px;
+  }
+
+  
+
+
+  .parent_sale_text_mini_side{
+    position: absolute;
+    top: 3px;
+    margin-left: 13px;
+    
+  } 
+
+
+  .parent_sale_mini_side .car_image{
+    width: 120px !important;
+    height: 140px !important;
+    margin-top: 5px;
+  
+  }
+
+  .parent_sale_mini_side{
+position: relative;
+margin-top: 60px;
+  }
+
+
+  .parent_sale_mini_color_side{
+    position: absolute;
+    top: 130px;
+    margin-left: 8px;
+  }
+
+  .parent_sale_mini_color_side img{
+    width: 80px;
+    height: 25px;
+  }
+
+  
+
+
+  .parent_sale_text_mini_side{
+    position: absolute;
+    top: 3px;
+    margin-left: 13px;
+    
+  } 

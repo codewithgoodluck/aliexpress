@@ -1,0 +1,66 @@
+img{
+
+
+}
+
+
+
+.item{
+
+  height: auto;  
+}
+
+.text{
+    font-size: 8px;
+}
+
+.item span{
+    color: #5A5A5A;
+   
+    /* top:10px; */
+}
+
+
+
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .item img{
+ width: 100px;
+ margin-left: 20px;
+
+    }
+
+    
+.text{
+    font-size: 10px;
+ 
+  
+
+    
+}
+
+.g_parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+}
+
+
+
+@media (min-width: 1025px) {
+    .g_parent_item{
+        display: none;
+
+    }
+    
+        
+  }

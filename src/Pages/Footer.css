@@ -1,0 +1,14 @@
+
+.footer img{
+    width: 50px;
+}
+
+
+@media (min-width: 1025px) {
+    .footer{
+      display: none;
+      
+    }
+    
+        
+  }

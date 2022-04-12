@@ -1,0 +1,68 @@
+
+
+.flash img{
+    width: 21px;
+}
+
+.flash_body img{
+width: 100px;
+}
+
+.flash_body .percentage{
+    background-color: #e83d69;
+    width: 70px;
+  
+    /* height: 10px; */
+}
+.flash_body{
+    position: relative;
+}
+
+.flash_body .percentage img{
+   width: 20px;
+}
+
+.flash_body .percentage .cancel_section{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  
+        
+    .flash_body .flash_child img{
+        width: 200px;
+    }
+    .g_parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}
+
+
+
+@media (min-width: 1025px) {
+    .weekly_parent{
+     margin-top: 100px;
+     background-color: #e83d69;
+    
+    
+    }
+
+    .week{
+        display: none;
+    }
+
+}

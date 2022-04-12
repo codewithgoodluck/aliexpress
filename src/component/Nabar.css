@@ -1,0 +1,222 @@
+.navbar{
+    background-color: white!important;
+}
+
+.banner{
+    display: none;
+}
+
+.navbar img{
+    width: 300px;
+    /* min-width: 83px; */
+   
+}
+
+.navbar ::placeholder{
+    color: #5A5A5A;
+    font-size: 13px;
+    height: auto !important;
+}
+
+.navbar .material-icons{
+    position: absolute;
+    right: 0;
+    color: #5A5A5A !important;
+    margin-top: 3px;
+
+}
+
+.navbar .rounded-lg{
+    background-color: #F2F2F2!important;
+    height: 40px !important;
+      /* height: 50px;
+    margin-top: 40px; */
+}
+
+
+.logo_text{
+ display: none;
+}
+
+.advert-text{
+    display: none;
+}
+
+
+/* .wrapper .badge4{
+    display: none;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    
+} */
+
+
+
+.wrapper .badge4{
+    width: 50px !important;
+    display: none;
+    height: 50px !important;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 1025px) {
+.wrapper{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+
+
+}
+
+
+.navbar .wrapper img{
+    width: 80%;
+    height: auto;
+
+   
+}
+
+.navbar .rounded-lg{
+    background-color: white!important;
+    border: 2px solid #FF4747;
+    height: 40px !important;
+    width: 60%;
+    margin-left: 10px;
+    
+
+}
+
+
+
+.navbar  .badge4{
+    width: 20px !important;
+    height: auto !important;
+    margin-bottom: 5px;
+    
+}
+
+
+.logo_text{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+    display:block;
+    top: 39px !important;
+    left: 0;
+    display: block;
+}
+
+
+
+.advert-text{
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    top: 55px;
+    left: 21%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querry  */
+
+
+
+  @media screen and (max-device-width:769px), screen and (max-width:1024px) {
+   .wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+   }
+.navbar .rounded-lg{
+    width: 40rem;
+    /* height: auto; */
+    /* height: 50px;
+    margin-top: 40px; */
+    /* margin-top: 40px; */
+}
+
+
+  }
+
+
+  @media (min-width: 768px) {
+  
+    .wrapper{
+        position: relative;
+    
+    }
+
+    /* .navbar img{
+        width: 150px;
+
+       
+    } */
+
+    .logo_text{
+        position: absolute;
+        font-size: 12px;
+        font-weight: 300;
+        color: #999999;
+        display:block;
+        top: 50px;
+        left: 0;
+        display: block;
+    }
+
+   
+    
+    .banner{
+        display: block;
+        width: 100%;
+        height: 80px;
+    }
+
+
+
+    .wrapper .badge4{
+        width: 40px !important;
+        display: flex;
+        height: 40px !important;
+        margin-left: 20px;
+    }
+
+
+
+
+    
+
+    
+  }
