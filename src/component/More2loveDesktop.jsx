@@ -806,11 +806,11 @@ function More2loveDesktop() {
           </div>
           <div
             style={{ backgroundColor: "#FF6432" }}
-            className="text-center w-[10vw] my-3 text-sm  text-white flex justify-center ml-[58vh] rounded-full mt-10 py-2 px-3"
+            className="text-center w-[10vw] my-3 text-sm  text-white flex justify-center ml-[80vh] rounded-full mt-10 py-2 px-3"
           >
             View More
           </div>
-          {/* <div
+          <div
             style={{ color: "#666666" }}
             className="text-xs flex justify-between"
           >
@@ -828,10 +828,10 @@ function More2loveDesktop() {
                 alt=""
               />{" "}
             </span>
-          </div> */}
+          </div>
         </section>
-        {/* <FotterDesktop></FotterDesktop> */}
-        {/* <section className="bg-white mt-2">
+
+        <section className="bg-white mt-2">
           <section className="container py-10  grid grid-cols-6 gap-3 ">
             <div className="text-center">
               <img
@@ -1076,7 +1076,7 @@ function More2loveDesktop() {
               增值电信业务经营许可证 浙B2-20120091-8 浙公网安备 33010802002248号
             </p>
           </section>
-        </section> */}
+        </section> 
       </section>
     </>
   );
