@@ -47,6 +47,21 @@ select option{
     display: none;
 }
 
+
+
+.account{
+    background-color: #F2F2F2;
+    z-index: 900;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
+
+.modal_c input{
+
+    border: 1px solid #CCCCCC;
+}
+
 /* media querry  */
 
 @media (min-width: 769px) {

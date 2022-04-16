@@ -9,9 +9,11 @@ function FotterDesktop() {
     <>
      
     <section className="footer_desktop">
-    <div
+ 
+      <section className="bg-white mt-2">
+      <div
             style={{ color: "#666666" }}
-            className="text-xs flex justify-between container"
+            className="text-xs flex pt-3 justify-between container"
           >
             <span>Discover more</span>
             <span>Double 11 festiva</span> |<span>11.11 promotion</span> |
@@ -28,7 +30,6 @@ function FotterDesktop() {
               />{" "}
             </span>
           </div>
-      <section className="bg-white mt-2">
         <section className="container py-10  grid grid-cols-6 gap-3 ">
           <div className="text-center">
             <img

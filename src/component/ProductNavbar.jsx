@@ -4,15 +4,16 @@ import NavbarContainer from "@material-tailwind/react/NavbarContainer";
 import NavbarWrapper from "@material-tailwind/react/NavbarWrapper";
 import NavbarBrand from "@material-tailwind/react/NavbarBrand";
 import NavbarInput from "@material-tailwind/react/NavbarInput";
-import "../component/Nabar.css";
+import "../component/ProductNavbar.css";
 import Carosel from "./Carosel";
 import Mininavabr from "./Mininavabr";
 
-function Navbarmain() {
+function ProductNavbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
 
   return (
     <>
+      <section className="navbar_parent_modile">
       <img
         className="banner "
         src="https://ae01.alicdn.com/kf/Sd7b1b3b8ae524e7c85c0be732b4e1de0y.jpg_Q90.jpg_.webp"
@@ -50,8 +51,45 @@ function Navbarmain() {
           </div>
         </NavbarContainer>
       </Navbar>
+      </section>
+
+      <section className="navbar_parent_desktop">
+      <img
+        className="banner "
+        src="https://ae01.alicdn.com/kf/Sd7b1b3b8ae524e7c85c0be732b4e1de0y.jpg_Q90.jpg_.webp"
+        alt=""
+      />
+      <Mininavabr></Mininavabr>
+      <Navbar className="navbar z-0 " navbar>
+        <NavbarContainer className="navbar_inner ">
+          <NavbarWrapper className="wrapper">
+            <NavbarBrand>
+              <img
+                src="https://ae01.alicdn.com/kf/H2111329c7f0e475aac3930a727edf058z.png"
+                alt=""
+              />
+            </NavbarBrand>{" "}
+      
+            <NavbarInput
+              type="text"
+              className="no-underline"
+              placeholder="I am shopping for ..."
+            />
+            <span className="span-one py-2.5 text-sm ">
+                On AliExpress
+            </span>
+            <span className="span-two py-2.5 text-sm ">
+                in this store
+            </span>
+
+            <img src="asset/badge.PNG" alt="" className="badge4" />
+          </NavbarWrapper>
+       
+        </NavbarContainer>
+      </Navbar>
+      </section>
     </>
   );
 }
 
-export default Navbarmain;
+export default ProductNavbar;

@@ -3,6 +3,9 @@
     z-index: 0 !important;
 }
 
+.navbar_parent_desktop{
+    display: none;
+}
 .banner{
     display: none;
 }
@@ -74,6 +77,28 @@
     width: 100%;
 
 
+
+}
+.wrapper .span-one{
+    background-color: #FF4747;
+    color: #FF4747;
+    width: 10rem;
+ text-align: center;
+}
+
+.wrapper .span-two{
+    background-color: #FFF0EB;
+    color: white;
+    width: 10rem;
+ text-align: center;
+}
+.navbar_parent_modile{
+    display: none;
+}
+
+.navbar_parent_desktop{
+    display: block;
+
 }
 
 
@@ -88,8 +113,10 @@
     background-color: white!important;
     border: 2px solid #FF4747;
     height: 40px !important;
-    width: 60%;
-    margin-left: 10px;
+    width: 20%;
+    margin-left: 40rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
     
 
 }

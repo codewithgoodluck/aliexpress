@@ -14,6 +14,7 @@ import SuperDeal from "../component/SuperDeal";
 import Topselection from "../component/Topselection";
 import Category from "../component/Category";
 import More2loveDesktop from "../component/More2loveDesktop";
+import FotterDesktop from "../component/FotterDesktop";
 
 function Home() {
 
@@ -44,6 +45,7 @@ function Home() {
        <WeeklyDeal/>
        <More2Love></More2Love>
        <Footer></Footer>
+       <FotterDesktop></FotterDesktop>
 
 
        {/* PRODUCT PAGE START */}
