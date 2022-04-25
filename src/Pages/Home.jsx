@@ -15,6 +15,7 @@ import Topselection from "../component/Topselection";
 import Category from "../component/Category";
 import More2loveDesktop from "../component/More2loveDesktop";
 import FotterDesktop from "../component/FotterDesktop";
+import MegaMenue from "../component/MegaMenue";
 
 function Home() {
 
@@ -23,6 +24,7 @@ function Home() {
   return (
     <div className="">
       <Navbarmain></Navbarmain>
+      <MegaMenue></MegaMenue>
       <Carosel></Carosel>
       <div class="grid  grid-cols-5 gap-1 h-50  container ">
         {itemData.map((item) => {

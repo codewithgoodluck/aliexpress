@@ -1,4 +1,4 @@
-.navbar{
+.navbar_product{
     background-color: white!important;
     z-index: 0 !important;
 }
@@ -10,19 +10,19 @@
     display: none;
 }
 
-.navbar img{
+.navbar_product img{
     width: 300px;
     /* min-width: 83px; */
    
 }
 
-.navbar ::placeholder{
+.navbar_product ::placeholder{
     color: #5A5A5A;
     font-size: 13px;
     height: auto !important;
 }
 
-.navbar .material-icons{
+.navbar_product .material-icons{
     position: absolute;
     right: 0;
     color: #5A5A5A !important;
@@ -30,7 +30,7 @@
 
 }
 
-.navbar .rounded-lg{
+.navbar_product .rounded-lg{
     background-color: #F2F2F2!important;
     height: 40px !important;
       /* height: 50px;
@@ -56,7 +56,7 @@
 
 
 
-.wrapper .badge4{
+.wrapper_product .badge4{
     width: 50px !important;
     display: none;
     height: 50px !important;
@@ -70,7 +70,7 @@
 
 
 @media (min-width: 1025px) {
-.wrapper{
+.wrapper_product{
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -79,16 +79,17 @@
 
 
 }
-.wrapper .span-one{
+.wrapper_product .span-one{
     background-color: #FF4747;
-    color: #FF4747;
+    color: white;
     width: 10rem;
  text-align: center;
 }
 
-.wrapper .span-two{
+.wrapper_product .span-two{
     background-color: #FFF0EB;
-    color: white;
+    
+    color: #FF4747;
     width: 10rem;
  text-align: center;
 }
@@ -98,18 +99,27 @@
 
 .navbar_parent_desktop{
     display: block;
+    position: relative;
 
 }
 
 
-.navbar .wrapper img{
-    width: 80%;
+
+.store{
+   position: absolute;
+   top: 8.4rem;
+   left: 20rem;
+}
+
+
+.navbar_product .wrapper_product img{
+    width: 20rem;
     height: auto;
 
    
 }
 
-.navbar .rounded-lg{
+.navbar_product .rounded-lg{
     background-color: white!important;
     border: 2px solid #FF4747;
     height: 40px !important;
@@ -123,7 +133,7 @@
 
 
 
-.navbar  .badge4{
+.navbar_product  .badge4{
     width: 20px !important;
     height: auto !important;
     margin-bottom: 5px;
@@ -182,13 +192,13 @@
 
 
   @media screen and (max-device-width:769px), screen and (max-width:1024px) {
-   .wrapper{
+   .wrapper_product{
        display: flex;
        justify-content: space-between;
        align-items: center;
 
    }
-.navbar .rounded-lg{
+.navbar_product .rounded-lg{
     width: 40rem;
     /* height: auto; */
     /* height: 50px;
@@ -202,7 +212,7 @@
 
   @media (min-width: 768px) {
   
-    .wrapper{
+    .wrapper_product{
         position: relative;
     
     }
@@ -234,7 +244,7 @@
 
 
 
-    .wrapper .badge4{
+    .wrapper_product .badge4{
         width: 40px !important;
         display: flex;
         height: 40px !important;

@@ -1,12 +1,11 @@
 import React from "react";
 import Navbarmain from "../component/Navbarmain";
 import "../Pages/Product.css";
-import star from "../asset/star.PNG";
+import star from "../asset/starp.PNG";
 import Footer from "./Footer";
 import More2loveDesktop from "../component/More2loveDesktop";
 import FotterDesktop from "../component/FotterDesktop";
 import ProductNavbar from "../component/ProductNavbar";
-
 
 function Product() {
   return (
@@ -14,8 +13,29 @@ function Product() {
       {" "}
       {/* <Navbarmain></Navbarmain> */}
       <ProductNavbar></ProductNavbar>
+      <section className="container">
+        <div className=" store-info ">
+          <ul className=" ">
+            <li style={{ color: "#666666" }} className="text-sm">
+              Store Home
+            </li>
+            <li style={{ color: "#666666" }} className="text-sm">
+              Product
+            </li>
+            <li style={{ color: "#666666" }} className="text-sm">
+              Sale Items
+            </li>
+            <li style={{ color: "#666666" }} className="text-sm">
+              Top Selling
+            </li>
+            <li style={{ color: "#666666" }} className="text-sm">
+              Feedback
+            </li>
+          </ul>
+        </div>
+      </section>
       <section>
-       {/* <section className=" lg:flex container">
+        {/* <section className=" lg:flex container">
        <section className="hidden lg:block bg-white w-full pl-5">
           <div>
             <span className="text-sm">Related Categories</span>
@@ -1648,6 +1668,232 @@ function Product() {
 
         <section>
           <Footer></Footer>
+        </section>
+      </section>
+      <section className="bg-white">
+        <section className="container section ">
+        <section className="left">
+        <div className="left_img">
+            <img
+              className=""
+              src="https://ae01.alicdn.com/kf/Sa02b2c38eb2e405d8c62709ba9327de2g/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_Q90.jpg_.webp"
+              alt=""
+            />
+
+            <div className="">
+              <div className="flex left_img_inner justify-between  my-3  ">
+                <span className=" border-2">
+                  <img
+                    className="px-1 py-1"
+                    src="https://ae01.alicdn.com/kf/Sd9eb9936167049b084644d8986f0a860Q/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                    alt=""
+                  />
+                </span>
+                <span className=" border-2">
+                  <img
+                    className="px-1 py-1"
+                    src="https://ae01.alicdn.com/kf/S0f175d2a2d4640c5ab83e89fd0ad0a317/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                    alt=""
+                  />
+                </span>
+                <span className=" border-2"></span>
+                <span className=" border-2">
+                  <img
+                    className="px-1 py-1"
+                    src="https://ae01.alicdn.com/kf/Scd451779896e44d4a47017d13b0a84c4F/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                    alt=""
+                  />
+                </span>
+                <span className=" border-2">
+                  <img
+                    className="px-1 py-1"
+                    src="https://ae01.alicdn.com/kf/Sa7b70984af494597b1ace25324a790faC/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                    alt=""
+                  />
+                </span>
+                <span className=" border-2">
+                  <img
+                    className="px-1 py-1"
+                    src="https://ae01.alicdn.com/kf/S29b609a5dcad401eb1973521354050764/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                    alt=""
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-4 parent-second">
+            <div className="second-two">
+              <p className="text-xs font-light">
+                Smart Watches Blood Pressure Waterproof Men Women Heart Rate
+                Monitor Fitness Tracker Digital Wrist Watch Sport For Android
+                IOS
+              </p>
+
+              <div className="second-two-inner ">
+                <img src={star} alt="" />
+                <span>4.9</span>
+                <span className="px-2">11 Reviews </span>
+                <span>974 orders</span>
+              </div>
+            </div>
+
+            <div className="relative second-three">
+              <img
+                src="https://ae01.alicdn.com/kf/Hcf8a5927756e4373bf1d1b928f2d856fN.png"
+                alt=""
+              />
+              <div className="flex w-full justify-between px-2 absolute top-0">
+                <div className="w-30">
+                  <span className="span-one ">NGN 2,002.16</span>
+                  <p className="mt-2">
+                    {" "}
+                    <strike>NGN 5,720.45</strike> -65%
+                  </p>
+                </div>
+                <div>
+                  <span className="user">
+                    <i>New User Deal</i>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <span className="text-xs">Instant discount: Buy 2 get 2% off </span>
+
+            <div className="coupon">
+              <div className="relative">
+                <img
+                  src="https://ae01.alicdn.com/kf/Hcf8a5927756e4373bf1d1b928f2d856fN.png"
+                  alt=""
+                />
+                <span className="absolute top-0">
+                  NGN 829.05 Coupons For You
+                </span>
+              </div>
+              <div className="relative">
+                <img
+                  src="https://ae01.alicdn.com/kf/Hcae789ea016843a785b6ce13e275c8c9u.png"
+                  alt=""
+                />
+                <span className="absolute top-0">4% off, use CHAO138138</span>
+
+                <span style={{ color: "#2E9CC3" }}>Get coupons</span>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <span className="text-sm ">
+                  Color:{" "}
+                  <span style={{ color: "#999999" }} className="text-xs blue">
+                    Blue 116Plus
+                  </span>{" "}
+                </span>
+                <div className="color-parent">
+                  <div className="flex justify-between  my-3 ">
+                    <span className=" border-2">
+                      <img
+                        className="px-1 py-1"
+                        src="https://ae01.alicdn.com/kf/S73004c4466c848708549a3811d637fc9R/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                        alt=""
+                      />
+                    </span>
+                    <span className=" border-2">
+                      <img
+                        className="px-1 py-1"
+                        src="https://ae01.alicdn.com/kf/Scd451779896e44d4a47017d13b0a84c4F/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                        alt=""
+                      />
+                    </span>
+                    <span className=" border-2">
+                      <img
+                        className="px-1 py-1"
+                        src="https://ae01.alicdn.com/kf/S23ae793f05e54693bb5fd42009c55095F/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                        alt=""
+                      />
+                    </span>
+                    <span className=" border-2">
+                      <img
+                        className="px-1 py-1"
+                        src="https://ae01.alicdn.com/kf/S29b609a5dcad401eb1973521354050764/Smart-Watches-Blood-Pressure-Waterproof-Men-Women-Heart-Rate-Monitor-Fitness-Tracker-Digital-Wrist-Watch-Sport.jpg_50x50.jpg_.webp"
+                        alt=""
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="text-sm">Quantity:</span> <br></br>
+                <span
+                  style={{ backgroundColor: "#F2F2F2" }}
+                  className="text-sm rounded-full px-2 py-2 "
+                >
+                  -
+                </span>
+                <span className="text-sm mx-1">1</span>
+                <span
+                  style={{ backgroundColor: "#F2F2F2" }}
+                  className="text-sm px-2 py-2 rounded-full"
+                >
+                  +
+                </span>
+                <span className="text-xs ml-2">90864 Pieces available</span>
+              </div>
+              <div>
+                <span className="text-sm">Free Shipping :</span>
+                <p style={{ color: "#666666" }} className="text-xs">
+                  From China to Nigeria via Cainiao Super Economy for Special
+                  Goods Estimated delivery on Jun 18{" "}
+                </p>
+              </div>
+              <div></div>
+            </div>
+            <div className="flex justify-between button-parent align-middle py-2">
+              <span
+                style={{ backgroundColor: "#FE6F41" }}
+                className="text-sm text-white rounded py-2 px-3 "
+              >
+                Buy Now
+              </span>
+              <span
+                style={{ backgroundColor: "#FF8C1E" }}
+                className="text-sm  text-white rounded py-2 px-3"
+              >
+                Add to Cart
+              </span>
+              <span></span>
+            </div>
+          </div>
+        </section>
+          <section>
+            <span className="text-sm">Recommended For You :</span>
+            <div className="section-right my-3">
+              <div>
+                <div>
+                  <img
+                    src="https://ae01.alicdn.com/kf/Sb2c01ba31d344c5a8ac04ed124f31354M/Smart-Bracelet-Men-Women-Heart-Rate-Blood-Pressure-Monitor-Sports-Band-Fitness-Tracker-Watches-Bluetooth-Step.jpg_220x220q90.jpg_.webp"
+                    alt=""
+                  />
+                  <span>NGN 2,060.19</span>
+                </div>
+                <div>
+                  <img
+                    src="https://ae01.alicdn.com/kf/S02f358e01b6642aebd49869eb3fefdd43/2022-Simple-Men-s-Watches-Stainless-Steel-Mesh-Belt-Minimalist-Fashion-Business-Clock-Ultra-Thin-Quartz.jpg_220x220q90.jpg_.webp"
+                    alt=""
+                  />
+                  <span>NGN 2,060.19</span>
+                </div>
+                <div>
+                  <img
+                    src="https://ae01.alicdn.com/kf/S6bc7aad129944fae949ae827d12e0c5eT/Smart-Sport-Watches-Women-Men-Fitness-Bracelet-Tracker-Steps-Calorie-Health-Monitor-Bluetooth-Wristwatch-For-Android.jpg_480x480q90.jpg_.webp"
+                    alt=""
+                  />
+                  <span>NGN 2,060.19</span>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
       </section>
       <FotterDesktop></FotterDesktop>
