@@ -1,0 +1,38 @@
+li{
+    font-size: 12px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-items: space-between;
+}
+
+.mega-menue{
+    display: flex;
+    justify-content: space-between;
+    z-index: 900;
+    background-color: white;
+    width: 97%;
+    height: 90vh;
+    margin-left:21rem ;
+
+}
+
+.mega-menue-parent{
+   display: none;
+}
+
+
+@media (min-width: 1025px) {
+    .mega-menue-parent{
+        position: absolute;
+        top: 13rem;
+        display: block;
+    }
+    
+    
+        
+  }
+

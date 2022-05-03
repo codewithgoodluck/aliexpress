@@ -22,9 +22,8 @@ function Home() {
 
   
   return (
-    <div className="">
+    <h1 className="text-3xl font-bold underline">
       <Navbarmain></Navbarmain>
-      <MegaMenue></MegaMenue>
       <Carosel></Carosel>
       <div class="grid  grid-cols-5 gap-1 h-50  container ">
         {itemData.map((item) => {
@@ -54,7 +53,7 @@ function Home() {
       
        
 
-    </div>
+    </h1>
   );
 }
 

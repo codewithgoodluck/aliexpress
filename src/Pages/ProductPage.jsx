@@ -5,6 +5,7 @@ import star from "../asset/star.PNG";
 import Footer from "./Footer";
 import More2loveDesktop from "../component/More2loveDesktop";
 import FotterDesktop from "../component/FotterDesktop";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function ProductPage() {
@@ -762,6 +763,7 @@ function ProductPage() {
             </div>
             <span className="text-xs ml-1">China Offer Store</span>
           </div>
+          
           <div className="bg-white rounded">
             <img
               className="w-60 rounded"
@@ -845,6 +847,7 @@ function ProductPage() {
               </span>
             </div>
             <span className="text-xs ml-1">China Offer Store</span>
+            
           </div>
           <div className="bg-white rounded">
             <img
@@ -958,6 +961,8 @@ function ProductPage() {
             </div>
             <span className="text-xs ml-1">China Offer Store</span>
           </div>
+
+          <Link to="/product">
           <div className="bg-white rounded">
             <img
               className="w-60 rounded"
@@ -986,6 +991,8 @@ function ProductPage() {
             </div>
             <span className="text-xs ml-1">China Offer Store</span>
           </div>
+          </Link>
+       
             
         </div>
         </section>

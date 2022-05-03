@@ -3,16 +3,29 @@ import { Carousel } from "react-bootstrap";
 import "../component/Carosel.css";
 import datas from "../component/Data/data";
 import Minicarosel from "../component/Minicarosel";
+import MegaMenue from "./MegaMenue";
 import SideNav from "./SideNav";
 import SideNavRight from "./SideNavRight";
 
-function Carosel() {
+function Carosel(props) {
+  const [openMega, setMega]=React.useState(false)
+  const [show, toggleShow] = React.useState(false);
+
+  function megaMenueHandler(){
+    toggleShow(!show)
+  }
+
   return (
     <>
-      <section className="flex parent_car  justify-between">
+      <section className="flex parent_car relative  justify-between">
         <section className="w-80">
-        <SideNav></SideNav>
+        <SideNav megaM={megaMenueHandler} ></SideNav>
         </section>
+
+        <div>
+      
+     
+    </div>
 
         <section className="car_p mx-[3vw]">
           <div className="flex text_inner justify-between">
@@ -56,7 +69,7 @@ function Carosel() {
             <div className="flex ">
               <div className="w-80">
                 <div className="mt-10">
-                  <span className=" pt-20 ml-5 welcome text-white">
+                  <span     className=" pt-20 ml-5 welcome text-white">
                     {" "}
                     Welcome newcomers!
                   </span>{" "}
@@ -93,6 +106,11 @@ function Carosel() {
        
        
       </section>
+
+       {show ? <MegaMenue ></MegaMenue> : null}
+      {/* {openMega && (<MegaMenue ></MegaMenue>)} */}
+
+  
     </>
   );
 }

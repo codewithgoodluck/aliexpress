@@ -232,6 +232,7 @@ function Mininavabr() {
               </ul>
             </div>
           )}
+          
         </section>
 
         <span className="mx-3 slash">|</span>
